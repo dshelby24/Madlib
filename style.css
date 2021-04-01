@@ -1,0 +1,15 @@
+
+body{
+    background: linear-gradient(90deg,#e475b6, #75a1e4);
+}
+h1{
+    text-align: center;
+}
+
+input[type="text"] {
+     position: relative;
+     display: block;
+     margin: auto;
+}
+
+
