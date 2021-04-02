@@ -5,11 +5,14 @@ body{
 h1{
     text-align: center;
 }
+.container {
+    font-size: 40px;
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    
 
-input[type="text"] {
-     position: relative;
-     display: block;
-     margin: auto;
-}
-
-
+  }
