@@ -19,4 +19,3 @@ document.getElementById('answer').innerHTML = paragraph;
 
 }
 
-

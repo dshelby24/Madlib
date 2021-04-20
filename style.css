@@ -1,7 +1,11 @@
 
 body{
-    background: linear-gradient(90deg,#e475b6, #75a1e4);
+    background: hsla(327, 96%, 45%, 1);
+
+    background: linear-gradient(360deg, hsla(327, 96%, 45%, 1) 0%, hsla(29, 94%, 48%, 1) 100%);
+    background: -webkit-linear-gradient(360deg, hsla(327, 96%, 45%, 1) 0%, hsla(29, 94%, 48%, 1) 100%);
 }
+
 h1{
     text-align: center;
 }
@@ -21,6 +25,10 @@ font-family: 'Patrick Hand', cursive;
 text-align: center;
 }
 
-  
-
-  
+#header{
+    left: 50%;
+    margin-left: 200px;
+    background:url(images/logo.png) no-repeat;
+    width:100px;
+    height:200px;
+}
